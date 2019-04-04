@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Domain.Unit">
+    <Position X="0.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAQAACAAAAAEAAAAAAAAAAAAAAQAAQAAAAAA=</HashCode>
+      <FileName>Models\Unit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.Topic">
+    <Position X="4.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAQAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Models\Topic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.Certification">
+    <Position X="6" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCEAAAA=</HashCode>
+      <FileName>Models\Certification.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.Block">
+    <Position X="1.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAgAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Models\Schedule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.Report">
+    <Position X="5" Y="10.75" Width="1.5" />
+    <InheritanceLine Type="Domain.Item" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="6.367" />
+        <Point X="5" Y="7.116" />
+        <Point X="10.616" Y="7.116" />
+        <Point X="10.616" Y="10.227" />
+        <Point X="5.812" Y="10.227" />
+        <Point X="5.812" Y="10.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IAAAQEAAACAAAAAAIAAAAAAAAAAAAAAAAAAAACAAAAg=</HashCode>
+      <FileName>Models\Report.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.Record">
+    <Position X="7" Y="10.75" Width="1.5" />
+    <InheritanceLine Type="Domain.Item" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="6.367" />
+        <Point X="5" Y="7.129" />
+        <Point X="10.608" Y="7.129" />
+        <Point X="10.608" Y="10.215" />
+        <Point X="7.688" Y="10.215" />
+        <Point X="7.688" Y="10.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>QAAAAAEAACAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Models\Record.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.Place">
+    <Position X="8" Y="5.5" Width="1.5" />
+    <InheritanceLine Type="Domain.Item" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="6.367" />
+        <Point X="5" Y="7.125" />
+        <Point X="8.75" Y="7.125" />
+        <Point X="8.75" Y="6.733" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Models\Place.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.Grade">
+    <Position X="7.75" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="Domain.Item" FixedFromPoint="true">
+      <Path>
+        <Point X="5" Y="6.367" />
+        <Point X="5" Y="7.125" />
+        <Point X="8.5" Y="7.125" />
+        <Point X="8.5" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAEAAAAAAAAQAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Models\Grade.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.Visitor">
+    <Position X="8.75" Y="13.25" Width="1.5" />
+    <InheritanceLine Type="Domain.Item" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="6.367" />
+        <Point X="5" Y="7.13" />
+        <Point X="10.616" Y="7.13" />
+        <Point X="10.616" Y="12.875" />
+        <Point X="9.562" Y="12.875" />
+        <Point X="9.562" Y="13.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Models\Visitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.TestReport">
+    <Position X="5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAQAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Models\TestReport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.EventType">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <InheritanceLine Type="Domain.Item" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="5" Y="6.367" />
+        <Point X="5" Y="7.125" />
+        <Point X="10.635" Y="7.125" />
+        <Point X="10.635" Y="10.221" />
+        <Point X="1.25" Y="10.221" />
+        <Point X="1.25" Y="10.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\EventType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Composition">
+    <Position X="2.5" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="Domain.Store" FixedFromPoint="true">
+      <Path>
+        <Point X="2" Y="5.375" />
+        <Point X="3.534" Y="5.375" />
+        <Point X="3.534" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAEgAAAAAAAAAABAICAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Models\Composition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Part">
+    <Position X="3" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAIAAAAAAAACAAAAAAAAAAAAAACAAAAAAQAAAAAA=</HashCode>
+      <FileName>Models\Part.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.Item">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="Domain.Store" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="5.375" />
+        <Point X="3.631" Y="5.375" />
+        <Point X="3.631" Y="5.375" />
+        <Point X="4.25" Y="5.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Item.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.VisitReport">
+    <Position X="6.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Models\VisitReport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.Teacher">
+    <Position X="6.25" Y="5.5" Width="1.5" />
+    <InheritanceLine Type="Domain.Item" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="6.367" />
+        <Point X="5" Y="7.125" />
+        <Point X="7.062" Y="7.125" />
+        <Point X="7.062" Y="6.733" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Models\Teacher.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.Store">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAEAAAAAAAAAAAAAABAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Store.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.Event">
+    <Position X="2.5" Y="10.75" Width="1.5" />
+    <InheritanceLine Type="Domain.Item" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="6.367" />
+        <Point X="5" Y="7.129" />
+        <Point X="10.62" Y="7.129" />
+        <Point X="10.62" Y="10.204" />
+        <Point X="3.125" Y="10.204" />
+        <Point X="3.125" Y="10.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAg=</HashCode>
+      <FileName>Models\Event.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.Reminder">
+    <Position X="8.75" Y="10.75" Width="1.5" />
+    <InheritanceLine Type="Domain.Item" ManuallyRouted="true">
+      <Path>
+        <Point X="5" Y="6.367" />
+        <Point X="5" Y="7.119" />
+        <Point X="10.615" Y="7.119" />
+        <Point X="10.615" Y="10.216" />
+        <Point X="9.5" Y="10.216" />
+        <Point X="9.5" Y="10.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAg=</HashCode>
+      <FileName>Models\Reminder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.Tag">
+    <Position X="9.75" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="Domain.Store" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="2" Y="5.375" />
+        <Point X="3.068" Y="5.375" />
+        <Point X="3.068" Y="4.5" />
+        <Point X="10.5" Y="4.5" />
+        <Point X="10.5" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.EntityTag">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityTag.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.TagReferences">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgCAAAAAAAAAAAAAAABAAAgAAAAAAgAAA=</HashCode>
+      <FileName>TagEntityTag.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.Sheme">
+    <Position X="1.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAIIAEAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sheme.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Domain.IPeriod">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Interfaces\IPeriod.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Domain.IBuildOn&lt;T&gt;">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IBuildOn.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Domain.IEntity">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Domain.IStore">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAEAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IStore.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Domain.ILink">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Interfaces\ILink.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Domain.IEvent">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IEvent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Domain.IReport">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="Domain.IPeriod" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="5.688" Y="1.796" />
+        <Point X="5.688" Y="2.443" />
+        <Point X="6.75" Y="2.443" />
+        <Point X="6.75" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IReport.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Domain.IGuid">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IGuid.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

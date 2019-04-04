@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAO", "DAO\DAO.csproj", "{2A321031-7EA8-435F-89D4-CBF0AE44B86D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{264E305B-1EFC-4812-890D-6443B7454FEB} = {264E305B-1EFC-4812-890D-6443B7454FEB}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SheduleLibrary", "SheduleLibrary\SheduleLibrary.csproj", "{264E305B-1EFC-4812-890D-6443B7454FEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A321031-7EA8-435F-89D4-CBF0AE44B86D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A321031-7EA8-435F-89D4-CBF0AE44B86D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A321031-7EA8-435F-89D4-CBF0AE44B86D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A321031-7EA8-435F-89D4-CBF0AE44B86D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{264E305B-1EFC-4812-890D-6443B7454FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264E305B-1EFC-4812-890D-6443B7454FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264E305B-1EFC-4812-890D-6443B7454FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264E305B-1EFC-4812-890D-6443B7454FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C8CDF4D-6C24-42D0-8FAC-5CDE9E1B23BB}
+	EndGlobalSection
+EndGlobal
